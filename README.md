@@ -150,15 +150,15 @@ FCSC{d0bf88291bcd488f28a809c9ae79d53da9caefc85b3790f57615e61c70a45f3c}
 
 ## Summary
 
-| Step | What I did | Result |
-|------|-----------|--------|
-| 1 | Read the challenge description | Found the hint: "two things" = two primes |
-| 2 | Opened `adversarial-crypto-infant.py` | Spotted `getStrongPrime()` called only once |
-| 3 | Understood the RSA theory | Normal RSA needs `n = p × q` |
-| 4 | Identified the bug | `n` is a single prime, not a product of two |
-| 5 | Applied Fermat's Little Theorem | `φ(n) = n - 1` becomes trivial |
-| 6 | Wrote the solve script | 4 lines of pure Python, no libraries |
-| 7 | Got the flag | ✅ Solved! |
+| Step| What I did                            | Result                                      |
+|-----|---------------------------------------|--------|------------------------------------|
+| 1   | Read the challenge description        | Found the hint: "two things" = two primes   |
+| 2   | Opened `adversarial-crypto-infant.py` | Spotted `getStrongPrime()` called only once |
+| 3   | Understood the RSA theory             | Normal RSA needs `n = p × q`                |
+| 4   | Identified the bug                    | `n` is a single prime, not a product of two |
+| 5   | Applied Fermat's Little Theorem       | `φ(n) = n - 1` becomes trivial              |
+| 6   | Wrote the solve script                | 4 lines of pure Python, no libraries        |
+| 7   | Got the flag                          | Solved!                                     |
 
 ---
 
@@ -168,4 +168,4 @@ This was my first real cryptography challenge and I learned a lot from it. What 
 
 I also learned that reading the source code carefully is really important. The vulnerability was right there in the first line of the script. I almost missed it because I was focused on the math.
 
-For anyone else who is a beginner like me: don't be scared of RSA challenges. Take your time, write down the math on paper, and read the code line by line. The hint is usually hiding in plain sight. 🙂
+For anyone else who is a beginner like me: don't be scared of RSA challenges. Take your time, write down the math on paper, and read the code line by line. The hint is usually hiding in plain sight. cxv
