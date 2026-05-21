@@ -2,6 +2,9 @@
 
 CTF write-ups for Hackropole challenges — written by a beginner, for beginners.
 
+🚧 I will keep updating this repository as I solve more challenges and improve my skills.
+
+
 ---
 
 ## Challenges
