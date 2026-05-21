@@ -11,4 +11,4 @@ CTF write-ups for Hackropole challenges — written by a beginner, for beginners
 | # | Challenge | Category | Difficulty | Status |
 |---|-----------|----------|------------|--------|
 | 1| [Symmetric Crypto](./fcsc-2025/symmetric-crypto/README.md) | Cryptography | Intro | ✅ |
-| 1 | [AdveRSArial Crypto — Infant](./fcsc-2025/adversarial-crypto-infant/README.md) | Cryptography | Infant | ✅ |
+| 2 | [AdveRSArial Crypto — Infant](./fcsc-2025/adversarial-crypto-infant/README.md) | Cryptography | Infant | ✅ |
